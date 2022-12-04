@@ -1,0 +1,245 @@
+h1 {
+    color: red;
+}
+
+p{
+    color: blue;
+}
+
+h2 {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+}
+
+#titulo-app {
+    color: #aaa;
+}
+
+.p-texto {
+    color: #444;
+}
+
+.nome {
+    color: orange;
+}
+
+.hexa {
+    color: #868686;
+}
+
+.rgba {
+    color: regba(17,197,214, 0.2);
+}
+
+/* Backgrounds */
+
+.div-background {
+    background-image: url('img/por-do-sol.jpg');
+    height: 300px;
+}
+
+.titulo-background {
+    text-align: center;
+    background-color: #000;
+    color: #FFF;
+}
+
+/* Fontes */
+
+.family {
+    color: #000;
+    font-size: 40px
+}
+
+.family.serif {
+    color: red;
+}
+
+.serif {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.sans-serif {
+    font-family: arial;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.oblique {
+    font-style: oblique;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.variant {
+    font-variant: small-caps;
+}
+
+
+/* box model  */
+
+body {
+    margin: 0;
+}
+
+.boxmodel {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    padding: 20px;
+
+    padding: 30px 20px 5px 10px;
+
+    /* especifico agrupado 3 medidas - top, right-left, botton  */
+    padding: 30px 20px 5px;
+
+    /* especifico agrupado duas medidas - top-botton, rigth-left */
+
+    padding: 30px 20px;
+    border: 3px solid blue;
+    border-width: 5px 10px 2px 10px;
+    border-right:  5px dotted blue;
+    border-radius: 5px;
+    margin: 50px;
+    display: block;
+}
+
+.paragrafo-box {
+    color: #fff;
+    margin: 0;
+}
+
+/* Position */
+/* Static -flow no html não é alterado por top, left, right e botton */
+/* Relative - flow no html, ela é alterada pelo top,left, rigth e botton*/
+/* Fixed - posiciona qualquer lugar da tela em relação ao html*/
+/* absolute - posiciona em qualquer lugar, e ela respeita o elemento antecessor */
+/* Stick  - esta no flow html, ao passar o scroll ela funciona como fixed  */
+
+.div-position {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+}
+
+
+.static {
+   position: static; 
+}
+
+.relative {
+    position: relative;
+    background-color: blue;
+    top: 100px;
+    left: 50px;
+}
+
+.absolute {
+    position: absolute;
+    background-color: purple;
+    right: 0;
+    top: 0;
+}
+
+.fixed {
+    position: fixed;
+    height: 200px;
+    background-color: yellow;
+    bottom: 0;
+    right: 0;
+}
+
+.sticky {
+    position: sticky;
+    background-color: gray;
+    top: 0px;
+}
+
+/* float */
+
+.container {
+    padding: 50px;
+}
+
+.div-float {
+    overflow: auto;
+}
+
+.img-float {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.p-float {
+    color: #000;
+}
+.clear {
+    clear: both;
+}
+
+/* Units  */
+
+.pixel-1 {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.pixel-2 {
+    background-color: blue;
+    width: 500px;
+    height: 50px;
+}
+
+/* porcentagem  */
+
+.pai-porcentagem {
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+}
+
+.porcentagem-1 {
+    width: 50%;
+    height: 50%;
+    background-color: #aaa;
+}
+
+.porcentagem-2 {
+    width: 50%;
+    height: 50%;
+    background-color: pink;
+}
+
+/* Unidades em e rem - layouts responsivos  */
+
+.pai-em {
+    font-size: 50px;
+}
+
+.em-1 {
+    width: 2em;
+    height: 2em;
+    background-color: purple;
+}
+
+.rem-1 {
+    width: 2em;
+    height: 2em;
+    background-color: blue;
+}
