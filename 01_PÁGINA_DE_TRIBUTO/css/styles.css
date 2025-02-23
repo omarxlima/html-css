@@ -42,9 +42,10 @@ html {
 
 .biografia-container {
     padding: 25px 0;
-    margin: 25px 0;
+    margin: auto;
     border-top: 1px dashed #ddd;
     border-bottom: 1px dashed #ddd;
+
 
 }
 
