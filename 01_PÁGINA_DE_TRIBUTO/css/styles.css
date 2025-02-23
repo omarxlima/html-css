@@ -5,13 +5,14 @@ html {
 
 .container {
     max-width: 1200px;
-    background-color: #fff;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
+    margin-top: 50px;
     padding: 20px 50px;
-    margin: 50px;
+    background-color: #fff;
 }
+
 
 .destaque {
     font-weight: bold;
@@ -38,6 +39,7 @@ html {
     margin-top: 30px;
 }
 
+*/
 /* biografia container  */
 
 .biografia-container {
@@ -66,7 +68,7 @@ html {
 }
 
 
-/* curiosidades  */
+/* curiosidades */
 .curiosidades-container {
     padding: 25px 0;
     margin: 25px 0;
