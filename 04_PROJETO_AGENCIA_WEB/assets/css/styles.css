@@ -169,3 +169,24 @@ html {
 #design-box {
     background-color: darkslategrey;
 }
+
+.footer-container {
+    background-image: url('../images/rodape.jpg');
+    background-position: center;
+}
+
+.about-container {
+    max-width: 1200px;
+    padding: 30px 10px;
+    position: relative;
+    clear: both;
+}
+
+.about-card {
+    float: left;
+    width: 30%;
+    padding-top: 30px;
+    background-color: #FFF;
+    text-align: center;
+    box-sizing: border-box;
+}
